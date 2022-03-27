@@ -1,12 +1,12 @@
 # IPCities
 Bringing the age of GeoCities to the world of tomorrow
 
-# How?
+## How?
 By utilizing the [InvArch INV4 protocol](https://github.com/InvArch/InvArch-Frames) to give websites not only Non Fungible characteristics but also distributed fractionalizable ownership.
 
 Oh, and also unlike traditional NFTs, we don't sacrife composability, you can change your website all you want. All thanks to the IPS module from [InvArch's INV4](https://github.com/InvArch/InvArch-Frames)!
 
-# Okay, but what am I supposed to do with these files?
+## Okay, but what am I supposed to do with these files?
 Well it's quite simple, really. You see, as of right now the protocol for project IPCities is barely developed, functionality is limited, but it's still pretty damn cool!
 
 To get started, we'll assume you already know how to use the [InvArch Network](https://github.com/InvArch/InvArch-Node) and are familiar with the concepts, if you aren't, feel free to reach out on the [InvArch discord](https://discord.gg/invarch)!
@@ -39,19 +39,19 @@ Of course this protocol will evolve and eventually will have features such as re
 
 You may be asking though, what's the point of this crazy HTML file if my website lives in a separate file? Well let me explain in this next session.
 
-# Great, now I have 2 HTML files, what do i do with them?
+## Great, now I have 2 HTML files, what do i do with them?
 You should now be able to mint these 2 files as IPFs (make sure to set your actual website's IPF metadata to the string you set back in the crazy looking HTML file!), then you can create an IPS with them.
 
 Having that done, you are ready to use your website! Just use the CID of your crazy looking HTML file (you can even link it to a normal domain name by using DNSLink!).
 
 But wait a minute, didn't you say something about full composability? What happens if I want to edit my website? Won't I have to change the CID and thus changing the domain?
 
-# I didn't like my website, let's make some changes...
+## I didn't like my website, let's make some changes...
 So you want to make changes, huh? Well that's pretty simple, all you have to do is remove the IPF that represents your actual website, mint your changed version with the same exact metadata as the old one and add this new IPF to the IPS. All while never touching the crazy HTML we were talking about before.
 
 Hopefully now your doubts about the composability are gone, you should realize by now that since you didn't change the crazy HTML file, it kept it's original CID and your website domain doesn't have to change!
 
 But since your website's starting page actually goes through your IPS over at InvArch to resolve what file should become your page, it can grab the latest version you added to the IPS and you don't have to manually reroute anything on IPFS!
 
-# Journey's End
+## Journey's End
 You did it! You built your very own IPCities webpage, now feel free to open an issue in this repository talking about it, I'll be happy to know more about your experience with both InvArch and this humble protocol of mine!
