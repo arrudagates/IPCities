@@ -42,7 +42,7 @@ You may be asking though, what's the point of this crazy HTML file if my website
 ## Great, now I have 2 HTML files, what do i do with them?
 You should now be able to mint these 2 files as IPFs (make sure to set your actual website's IPF metadata to the string you set back in the crazy looking HTML file!), then you can create an IPS with them.
 
-Having that done, you are ready to use your website! Just use the CID of your crazy looking HTML file (you can even link it to a normal domain name by using DNSLink!).
+Having that done, you are ready to use your website! Just use the CID of your crazy looking HTML file (you can even link it to a normal domain name by using [DNSLink](https://www.dnslink.io/#example-ipfs-gateway)!).
 
 But wait a minute, didn't you say something about full composability? What happens if I want to edit my website? Won't I have to change the CID and thus changing the domain?
 
