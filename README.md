@@ -4,12 +4,12 @@ Bringing the age of GeoCities to the world of tomorrow
 ## How?
 By utilizing the [InvArch INV4 protocol](https://github.com/InvArch/InvArch-Frames) to give websites not only Non Fungible characteristics but also distributed fractionalizable ownership.
 
-Oh, and also unlike traditional NFTs, we don't sacrife composability, you can change your website all you want. All thanks to the IPS module from [InvArch's INV4](https://github.com/InvArch/InvArch-Frames)!
+Oh, and also unlike traditional NFTs, we don't sacrifice composability, you can change your website all you want. All thanks to the IPS module from [InvArch's INV4](https://github.com/InvArch/InvArch-Frames)!
 
 ## Okay, but what am I supposed to do with these files?
 Well it's quite simple, really. You see, as of right now the protocol for project IPCities is barely developed, functionality is limited, but it's still pretty damn cool!
 
-To get started, we'll assume you already know how to use the [InvArch Network](https://github.com/InvArch/InvArch-Node) and are familiar with the concepts, if you aren't, feel free to reach out on the [InvArch discord](https://discord.gg/invarch)!
+To get started, we'll assume you already know how to use the [InvArch Network](https://github.com/InvArch/InvArch-Node) and are familiar with the concepts. If you aren't, feel free to reach out on the [InvArch discord](https://discord.gg/invarch)!
 
 Now, initially for this proof of concept stage we have 2 files. Let's go through them:
 
